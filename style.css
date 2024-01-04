@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    gap: 10px;
+
+}
+
+.item {
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.item1 {
+    background: green;
+    grid-column: 1/10;
+    grid-row: 8/4;
+    text-align: center;
+}
+
+.item2 {
+    background: blue;
+    grid-row: 2/4;
+    grid-column: 1/20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.item3 {
+    background: violet;
+    grid-row: 4/8;
+    grid-column: 10/20;
+    text-align: center;
+
+}
+
+.item4 {
+    background: brown;
+    grid-row: 1/1;
+    grid-column: 1/20;
+    text-align: center;
+}
+
+.item5 {
+    background: orange;
+    grid-row: 8/10;
+    grid-column: 1/20;
+    text-align: center;
+}
+
+.subItem {
+    background: white;
+    color: blue;
+    border: 3px solid black;
+}
+
+.subitem1,
+.subitem2,
+.subitem3,
+.subitem4,
+.subitem5,
+.subitem6 {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
