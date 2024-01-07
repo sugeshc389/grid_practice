@@ -11,14 +11,14 @@
 }
 
 .item1 {
-    background: green;
-    grid-column: 1/10;
+    background: rgb(2, 71, 2);
+    grid-column: 1/11;
     grid-row: 8/4;
     text-align: center;
 }
 
 .item2 {
-    background: blue;
+    background: rgb(4, 4, 96);
     grid-row: 2/4;
     grid-column: 1/20;
     display: flex;
@@ -31,7 +31,7 @@
 .item3 {
     background: violet;
     grid-row: 4/8;
-    grid-column: 10/20;
+    grid-column: 11/20;
     text-align: center;
 
 }
@@ -44,7 +44,7 @@
 }
 
 .item5 {
-    background: orange;
+    background: rgb(117, 76, 0);
     grid-row: 8/10;
     grid-column: 1/20;
     text-align: center;
